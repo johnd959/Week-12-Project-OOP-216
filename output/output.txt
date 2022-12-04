@@ -1,0 +1,94 @@
+Main Menu
+0 - Close application
+1 - Doctors
+2 - Facilities
+3 - Laboratories
+4 - Patients
+Enter option: 4
+
+Patient Menu
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+Enter option: 1
+
+ID        Name      Diagnosis Gender    Age
+
+12        Pankaj    Leukemia  Male      30
+13        Janina    Cold      Female    23
+14        Alonna    Malaria   Female    45
+15        Ravi      Diabetes  Male      65
+
+Patient Menu
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+Enter option: 2
+Enter patient ID: 16
+
+Patient with ID 16 not in patient file
+
+Patient Menu
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+Enter option: 2
+Enter patient ID: 15
+
+15        Ravi      Diabetes  Male      65
+
+Patient Menu
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+Enter option: 3
+Enter Patient ID: 16
+Enter Patient Name: Mary
+Enter Patient Diagnosis: Cancer
+Enter Patient Gender: Female
+Enter Patient Age: 55
+
+Patient Menu
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+Enter option: 4
+Enter patient ID: 13
+13        Janina    Cold      Female    23        
+Enter new Name: Janina
+Enter new Diagnosis: Pneumonia
+Enter new Gender: Female
+Enter new Age: 23
+ID        Name      Diagnosis Gender    Age       
+
+12        Pankaj    Leukemia  Male      30
+13        Janina    Pneumonia Female    23
+14        Alonna    Malaria   Female    45
+15        Ravi      Diabetes  Male      65
+16        Mary      Cancer    Female    55
+
+Patient Menu
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+Enter option: 0
+
+Main Menu
+0 - Close application
+1 - Doctors
+2 - Facilities
+3 - Laboratories
+4 - Patients
+Enter option: 0
