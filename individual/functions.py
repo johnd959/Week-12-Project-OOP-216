@@ -115,9 +115,9 @@ def getPatientInfo(mode="a"):
                     patientInfo[key] = Diagnosis
                 case "Gender":
                     if mode == "a":
-                        message = "Enter Patient Gender: "
+                        message = "Enter Patient Sex: "
                     elif mode == "e":
-                        message = "Enter new Gender: "
+                        message = "Enter new Sex: "
                     Gender = input(message).rstrip()
                     if Gender.capitalize() in ["Male", "Female"]:
                         Gender = Gender.capitalize()
@@ -226,6 +226,6 @@ def validateIntInput(messg, errmessg):
 
 def getOption(limit=4):
     option = ""
-    while option == "" and option >= limit:
+    while option == "" or int(option) > limit:
         option = validateIntInput("Enter option: ", "Please enter a valid option")
     return option
